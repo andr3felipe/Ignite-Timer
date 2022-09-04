@@ -67,4 +67,4 @@
 <br>
 
 ### LINK TO TEST THE PROJECT
-<a href="https://precious-squirrel-64adaa.netlify.app/">ToDo</a>
+<a href="https://dancing-malasada-9e3838.netlify.app">Ignite Timer</a>
