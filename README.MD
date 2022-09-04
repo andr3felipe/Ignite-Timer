@@ -14,7 +14,7 @@
 
 
 # GIF
-<img src="src/assets/ToDoGif.gif"/>
+<img src="src/assets/Pomodoro.gif"/>
 
 
 ### FEITO COM
@@ -68,12 +68,3 @@
 
 ### LINK TO TEST THE PROJECT
 <a href="https://precious-squirrel-64adaa.netlify.app/">ToDo</a>
-
-
-
-# YOUTUBE VIDEO
-#### Clique na imagem para assitir no youtube! 
-#### Click in the image to watch on youtube!
-
-[<img src="https://github.com/andr3felipe/ToDo/blob/main/src/assets/ToDo.png" width="50%">](https://www.youtube.com/watch?v=ShNltl0yG3Q "Click to watch in youtube")
-
