@@ -7,7 +7,6 @@ import {
   useState,
 } from 'react'
 import {
-  ActionTypes,
   addNewCycleAction,
   interruptCurrentCycleAction,
   markCurrentCycleAsFinishedAction,
@@ -46,12 +45,19 @@ export function CyclesContextProvider({
       activeCycleId: null,
     },
     () => {
-      const storedStateAsJSON = localStorage.getItem(
-        '@ignite-timer:cycles-state-1.0.0',
-      )
+      if (localStorage.getItem('@ignite-timer:cycles-state-1.0.0') !== null) {
+        const storedStateAsJSON = localStorage.getItem(
+          '@ignite-timer:cycles-state-1.0.0',
+        )
 
-      if (storedStateAsJSON) {
-        return JSON.parse(storedStateAsJSON)
+        if (storedStateAsJSON) {
+          return JSON.parse(storedStateAsJSON)
+        }
+      } else {
+        const object = { cycles: [], activeCycleId: null }
+        const stateJSON = JSON.stringify(object)
+
+        localStorage.setItem('@ignite-timer:cycles-state-1.0.0', stateJSON)
       }
     },
   )
