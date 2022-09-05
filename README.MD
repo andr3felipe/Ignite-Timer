@@ -58,7 +58,7 @@
 ### FEATURES
 <ul>
 <li>Create and stop tasks.</li>
-<li>History of tasks (completed, stopped or in progress).</p>
+<li>History of tasks (completed, stopped or in progress).</li>
 <li>Disable button to create task if there's no content in input.</li>
 <li>Show the timer in the page title.</li>
 <li>Save data in the localStorage.</li>
